@@ -96,10 +96,12 @@ Aby kompilować pliki MPI, używamy polecenia mpicc
 W tym kontenerze program zostaż już skompilowany.
 
 Aby uruchomic program MPI nalezy wpisac:
+
 ``
   mpirun --allow-run-as-root -n 5 mpi
 ``
-Tym poleceniem zostało wykorzystanych 5 klientów do uruchomienia programu. 
 
+Tym poleceniem zostało wykorzystanych 5 klientów do uruchomienia programu. 
+file:///home/mm/Pictures/Screenshot%20from%202021-01-12%2012-f21-45.png
 
 Zamiast przykładowego programu mpi.c mozna uruchomić dowolny program OpenMPI.
