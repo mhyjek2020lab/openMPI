@@ -90,12 +90,16 @@ int main(int argc, char** argv) {
 ```
 
 Aby kompilować pliki MPI, używamy polecenia mpicc
-W tym kontenerze program zostaż już skompilowany
+```
+  mpicc -o mpi mpi.c	
+```
+W tym kontenerze program zostaż już skompilowany.
 
 Aby uruchomic program MPI nalezy wpisac:
 ``
   mpirun --allow-run-as-root -n 5 mpi
 ``
 Tym poleceniem zostało wykorzystanych 5 klientów do uruchomienia programu. 
+
 
 Zamiast przykładowego programu mpi.c mozna uruchomić dowolny program OpenMPI.
