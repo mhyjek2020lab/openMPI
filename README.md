@@ -102,6 +102,7 @@ Aby uruchomic program MPI nalezy wpisac:
 ``
 
 Tym poleceniem zostało wykorzystanych 5 klientów do uruchomienia programu. 
-file:///home/mm/Pictures/Screenshot%20from%202021-01-12%2012-f21-45.png
+
+https://github.com/mhyjek2020lab/openMPI/issues/1#issue-784367203
 
 Zamiast przykładowego programu mpi.c mozna uruchomić dowolny program OpenMPI.
