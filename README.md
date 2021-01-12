@@ -1,19 +1,22 @@
 # openMPI
-1.0 wstep
+## Wprowadzenie
 
 To repozytorium powstalo w ramach zajec laboratoryjnych PWiR.
 Z wykorzystaniem kodow mozna zbudowac kontener Dockerowy, zawierajacy srodowisko
 OpenMPI wraz z bibliotekami pomocniczymi. Kontener obsluguje rowniez serwer OpenSSH
 co umozliwia wykorzystanie wielu kontenerow polaczonych ze soba.
 
-1.1 budowa kontenera
+## Budowa kontenera
+  Aby zbudować kontener posłużono się poleceniem docker build
+  Instrukcje konfigacyjne dla obrazu znajdują się w pliku Dockerfile.
+  
 
-1.5 dzialanie kstastra HPC
+## Działanie klastra HPC
 
-nalezy pobrac obraz dockera z repozytorium:
-
+Należy pobrać obraz dockera z repozytorium:
+```
 sudo docker pull 151969/openmpi:last
-
+```
 w katalogu "openMPI" ze sklonowanego repozytorium GIT https://github.com/mhyjek2020lab/openMPI.git
 znajduje sie plik "docker-compose.yml". Jest to plik, ktory definiuje mpi_head 
 oraz mpi_node. Oba kontenery obsluguja ten sam obraz dockerowy. 
