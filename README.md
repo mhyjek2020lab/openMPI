@@ -4,7 +4,7 @@
 To repozytorium powstało w ramach zajeć laboratoryjnych PWiR.
 Z wykorzystaniem kodów mozna zbudowć kontener Dockerowy, zawierający środowisko
 OpenMPI wraz z bibliotekami pomocniczymi. Kontener obsługuje rownież serwer OpenSSH
-co umożliwia wykorzystanie wielu kontenerów połączonych ze sobą.
+co umożliwia wykorzystanie wielu kontenerów połączonych ze sobą. Obrazy zostaly utworzone na systemie Ubuntu 20.04.1 LTS.
 
 ## Budowa kontenera
   Należy sklonować repozytorium https://github.com/mhyjek2020lab/openMPI.git
@@ -106,3 +106,8 @@ Tym poleceniem zostało wykorzystanych 5 klientów do uruchomienia programu.
 ![Screenshot from 2021-01-12 12-f21-45](https://user-images.githubusercontent.com/76013271/104339376-cc873380-54f7-11eb-9393-91378f89effc.png)
 
 Zamiast przykładowego programu mpi.c mozna uruchomić dowolny program OpenMPI.
+
+Bibliografia:
+https://github.com/oweidner/docker.openmpi
+https://mrpycharm.github.io/openmpi-docker.html
+https://mpitutorial.com/tutorials/mpi-hello-world/
